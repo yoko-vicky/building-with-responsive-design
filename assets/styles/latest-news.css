@@ -1,0 +1,45 @@
+.latest-news {
+}
+
+.latest-news .title {
+}
+
+.latest-news-articles {
+}
+
+.latest-news-article {
+  display: flex;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.latest-news-image {
+  flex: 0 0 75px;
+  height: 75px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+.latest-news-image a img {
+  height: 100%;
+}
+
+.latest-news-text h4 {
+  margin: 0 auto 1px;
+}
+
+.latest-news-text h4 a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.latest-news-text .times {
+  padding: 4px 0 0 0;
+}
+
+.latest-news-text .times * {
+  font-size: 12px;
+  color: var(--color-light-grey);
+  text-decoration: none;
+}
