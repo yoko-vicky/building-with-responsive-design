@@ -44,11 +44,31 @@
   bottom: 0;
 }
 
+.cover-story-category {
+  font-family: var(--font-family-tertiary);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
 .cover-story-heading {
   margin: 0 auto 5px;
   font-size: 18px;
   line-height: 1.4;
   font-family: var(--font-family-secondary);
+}
+
+.cover-story-info {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+}
+
+.cover-story-info span {
+  margin-right: 5px;
+}
+
+.cover-story-info i {
+  margin-right: 4px;
 }
 
 @media screen and (min-width: 768px) {
