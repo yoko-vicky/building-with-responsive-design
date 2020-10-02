@@ -1,0 +1,50 @@
+.deals {
+}
+
+.deals-header {
+}
+
+.deals-links {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+
+.deals-links a {
+  color: var(--color-primary);
+  font-size: 14px;
+  margin: 11px 0 0;
+  text-decoration: none;
+}
+
+.deals-container {
+}
+
+.deal-box {
+  position: relative;
+}
+
+.deal-box img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.deal-info {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #fffaf8;
+}
+
+.deal-info span {
+  margin-bottom: 13px;
+}
+
+.deal-info i {
+  margin-right: 10px;
+}
+
+.deal-info span {
+  display: flex;
+}
