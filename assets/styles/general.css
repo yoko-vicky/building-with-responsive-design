@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+:root {
+  --color-primary: #f42;
+  --color-secondary: #fd3;
+  --color-tertiary: #0cc;
+  --color-light-primary: rgba(255, 68, 34, 0.06);
+  --color-dark-grey-1: #131313;
+  --color-dark-grey-2: #333;
+  --color-medium-grey: #555;
+  --color-light-grey: #aaa;
+  --font-family-primary: "Open Sans", sans-serif;
+  --font-family-secondary: "Montserrat", sans-serif;
+  --font-family-tertiary: "Rajdhani", sans-serif;
+}
+
+body {
+  font-family: --font-family-primary;
+  font-size: 13px;
+}
+
+img {
+  max-width: 100%;
+}

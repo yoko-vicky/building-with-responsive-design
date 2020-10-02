@@ -1,0 +1,46 @@
+.cover-stories {
+  background-color: pink;
+}
+
+.cover-story {
+  width: 100%;
+  min-height: 30vh;
+}
+
+.cover-story:first-child {
+  background: url(../images/Screenshot-2020-08-13-at-11.17.10-AM-796x386.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-story:nth-child(2) {
+  background: url(../images/tnw2020-feature_img-01.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-story:last-child {
+  background: url(../images/Super-Software-Bundle-540x270.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-story-link {
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.cover-story-title-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 14px 12px;
+}
+
+.cover-story-heading {
+  margin: 0 auto 5px;
+  font-size: 20px;
+}
