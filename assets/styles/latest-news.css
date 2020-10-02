@@ -86,11 +86,12 @@
   .latest-news-articles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 7px;
   }
 
   .latest-news-article {
     display: block;
-    padding: 10px;
+    padding: 0;
   }
 
   .latest-news-image {
