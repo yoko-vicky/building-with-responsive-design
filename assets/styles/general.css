@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 :root {
   --color-primary: #f42;
   --color-secondary: #fd3;
@@ -16,10 +17,15 @@
 }
 
 body {
-  font-family: --font-family-primary;
+  font-family: var(--font-family-primary);
   font-size: 13px;
 }
 
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }

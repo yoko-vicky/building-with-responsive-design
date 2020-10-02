@@ -1,0 +1,85 @@
+.main-footer {
+  text-align: center;
+}
+
+/* .footer-links {
+} */
+
+.footer-wrapper {
+  background-color: var(--color-dark-grey-1);
+  padding: 35px 0;
+}
+
+.footer-links-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+
+.footer-links-social li {
+  background-color: var(--color-medium-grey);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 3px;
+  height: 16px;
+  width: 16px;
+}
+
+.footer-links-menu a {
+  text-decoration: none;
+  color: var(--color-light-grey);
+  font-size: 13px;
+  font-family: var(--font-family-tertiary);
+}
+
+.footer-links-social li a {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-links-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.footer-links-menu li {
+  margin: 0 4px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-direction: column;
+  color: #aaa;
+  background-color: black;
+  font-size: 13px;
+  padding: 2.5em;
+}
+
+.footer-legal span {
+  margin-bottom: 5px;
+}
+
+.f-logo {
+  height: 9px;
+  margin-right: 1px;
+}
+
+.stackpath-img {
+  height: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-legal {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}

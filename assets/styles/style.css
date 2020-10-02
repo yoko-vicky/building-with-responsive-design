@@ -1,6 +1,9 @@
 @import "general.css";
 @import "header.css";
-@import "cover-stories.css"; /* @media screen and (min-width: 768px) {
+@import "cover-stories.css";
+@import "footer.css";
+
+/* @media screen and (min-width: 768px) {
   body {
     background-color: yellow;
   }
