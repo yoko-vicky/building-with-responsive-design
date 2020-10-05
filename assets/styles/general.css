@@ -22,6 +22,10 @@ body {
   font-size: 13px;
 }
 
+main {
+  margin-top: 6px;
+}
+
 img {
   max-width: 100%;
 }
