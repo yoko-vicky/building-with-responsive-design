@@ -1,3 +1,49 @@
 .main-header {
   background-color: gold;
 }
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  max-height: 32px;
+}
+
+.is-active {
+  color: white;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  max-height: 38px;
+}
+
+.nav-left a,
+.nav-right a {
+  color: white;
+}
+
+.top-nav-dropdown {
+  display: none;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-nav {
+  background-color: white;
+  max-height: 48px;
+}
+
+.nav-logo {
+  display: block;
+  background-color: black;
+  height: 48px;
+  width: 106px;
+  top: 0;
+  left: 0;
+}
