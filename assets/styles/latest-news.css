@@ -1,10 +1,6 @@
-/* .latest-news {
-}
-
 .latest-news .title {
+  margin-bottom: 24px;
 }
-
-*/
 
 .latest-news-article {
   display: flex;
