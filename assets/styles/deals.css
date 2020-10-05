@@ -1,13 +1,10 @@
-.deals {
-}
-
 .deals-header {
+  margin-bottom: 24px;
 }
 
 .deals-links {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 }
 
 .deals-links a {
@@ -17,24 +14,52 @@
   text-decoration: none;
 }
 
-.deals-container {
-}
-
 .deal-box {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .deal-box img {
-  position: absolute;
   width: 60px;
   height: 60px;
+  margin: 11px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.company-name {
+  background: var(--color-primary);
+  color: white;
+  padding: 11px 16px 11px 84px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.fund-details {
+  background: var(--color-light-primary);
+  padding: 11px 16px 11px 84px;
+  margin: 0;
+}
+
+.fund-details h5 {
+  color: var(--color-light-grey);
+  font-family: var(--font-family-tertiary);
+  margin: 0;
+}
+
+.deal-value {
+  font-size: 18px;
+  color: black;
+  margin: 0;
 }
 
 .deal-info {
   display: flex;
   flex-direction: column;
   padding: 16px;
-  background-color: #fffaf8;
+  background-color: var(--color-light-pink);
 }
 
 .deal-info span {
@@ -45,6 +70,19 @@
   margin-right: 10px;
 }
 
-.deal-info span {
-  display: flex;
+.deal-byline {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  padding: 10px 16px 16px;
+  background-color: var(--color-light-pink);
+}
+
+.deal-byline a {
+  color: var(--color-medium-grey);
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.deal-byline a span {
+  color: var(--color-light-grey);
+  font-size: 12px;
 }
