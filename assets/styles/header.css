@@ -90,10 +90,6 @@
     max-height: 32px;
   }
 
-  .is-active {
-    color: white;
-  }
-
   .nav-left {
     display: flex;
     align-items: center;
@@ -113,6 +109,10 @@
     color: hsla(0, 0%, 100%, 0.6);
     text-decoration: none;
     font-size: 13px;
+  }
+
+  .nav-left .is-active {
+    color: white;
   }
 
   .top-nav-dropdown {
@@ -149,10 +149,29 @@
     font-family: var(--font-family-tertiary);
   }
 
+  .botom-nav-left a:hover {
+    color: black;
+  }
+
   .header-icons a:last-child {
+    display: none;
+  }
+
+  .botom-nav-left li:nth-child(6),
+  .botom-nav-left li:last-child {
     display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  .nav-logo {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .botom-nav-left li:nth-child(6),
+  .botom-nav-left li:last-child {
+    display: block;
+  }
 }
