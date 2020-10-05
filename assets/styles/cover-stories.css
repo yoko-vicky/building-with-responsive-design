@@ -121,11 +121,8 @@
   }
 
   .cover-story:first-child .cover-story-link {
-    transition: all 1s;
-  }
-
-  .cover-story:first-child .cover-story-link {
     background: linear-gradient(159deg, rgba(255, 0, 63, 0.5) 0%, rgba(121, 9, 31, 0) 67%, rgba(0, 0, 0, 1) 100%);
+    transition: all 1s;
   }
 
   .cover-story:first-child .cover-story-link:hover {

@@ -86,3 +86,53 @@
   color: var(--color-light-grey);
   font-size: 12px;
 }
+
+.deal-box:last-child {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .deals-links {
+    flex-direction: row;
+  }
+
+  .deals-links a {
+    margin: 20px 0 0;
+    font-size: 16px;
+  }
+
+  .deals-links a::after {
+    content: "|";
+    margin: 0 10px;
+  }
+
+  .deals-links a:last-child::after {
+    display: none;
+  }
+
+  .deals-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .deals-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .deal-box:last-child {
+    display: block;
+  }
+
+  .deals-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .deals-links a {
+    margin: 0;
+  }
+}

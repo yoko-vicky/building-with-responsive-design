@@ -7,7 +7,6 @@
     "stylelint": "stylelint '**/*.{css,scss}'",
     "webhint": "hint ."
   },
-  
   "devDependencies": {
     "hint": "^6.0.7",
     "stylelint": "^13.3.3",
