@@ -9,7 +9,7 @@
 .latest-news-article {
   display: flex;
   align-items: flex-start;
-  padding: 8px;
+  margin-bottom: 16px;
 }
 
 .latest-news-image {
