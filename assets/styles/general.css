@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --color-primary: #f42;
+  --color-secondary: #fd3;
+  --color-tertiary: #0cc;
+  --color-light-primary: rgba(255, 68, 34, 0.06);
+  --color-dark-grey-1: #131313;
+  --color-dark-grey-2: #333;
+  --color-medium-grey: #555;
+  --color-light-grey: #aaa;
+  --color-light-pink: #fffaf8;
+  --font-family-primary: "Open Sans", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+  --font-family-tertiary: "Rajdhani", sans-serif;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: 13px;
+}
+
+main {
+  margin-top: 6px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 0 20px;
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+.title a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 26px;
+  font-family: var(--font-family-secondary);
+}
+
+.title a::after {
+  content: ">";
+  color: var(--color-primary);
+  margin-left: 10px;
+}
+
+h2 {
+  margin: 0;
+}

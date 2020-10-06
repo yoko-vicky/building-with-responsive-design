@@ -1,15 +1,846 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test</title>
-  <!-- Normalize.css CDN -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TNW</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-  <!-- FontAwesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/styles/style.css" />
 </head>
+
 <body>
-  <h1>Test</h1>
+  <header class="main-header">
+    <a href="#" class="nav-logo"><img src="./assets/images/tnw.svg" alt="logo" /></a>
+    <div class="wrap">
+      <nav class="top-nav">
+        <ul class="nav-left">
+          <li><a class="is-active" href="#">News</a></li>
+          <li>
+            <a href="#">Events</a>
+            <ul class="top-nav-dropdown">
+              <li><a href="#">TNW2020</a></li>
+              <li><a href="#">Couch Conferences</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">Busines</a>
+            <ul class="top-nav-dropdown">
+              <li><a href="#">Index</a></li>
+              <li><a href="#">Programs</a></li>
+            </ul>
+          </li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Spaces</a></li>
+          <li><a href="#">Term & Conditions</a></li>
+        </ul>
+
+        <ul class="nav-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="bottom-nav">
+        <ul class="botom-nav-left">
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Hard Fork</a></li>
+          <li><a href="#">Plugged</a></li>
+          <li><a href="#">Readme</a></li>
+          <li><a href="#">Growth Quaters</a></li>
+          <li><a href="#">Shift</a></li>
+          <li><a href="#">Neural</a></li>
+        </ul>
+
+        <div class="header-icons">
+          <a href="#" class="header-icons-wrap"><i class="fas fa-search fa-flip-horizontal"></i></a>
+          <div id="humburger" class="header-icons-wrap">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-mobile" id="nav-mobile">
+      <div class="nav-mobile-content">
+        <ul class="nav-mobile-social">
+          <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+          <li><a href="#"><i class="fas fa-rss"></i></a></li>
+        </ul>
+
+        <div class="nav-mobile-links">
+
+          <div class="sections">
+            <h5>Sections</h5>
+            <ul class="nav-mobile-menu">
+              <li><a href="#">Latest</a></li>
+              <li><a href="#">Insights</a></li>
+              <li><a href="#">Plugged</a></li>
+              <li><a href="#">Hard Fork</a></li>
+              <li><a href="#">ReadMe</a></li>
+              <li><a href="#">Growth Quaters</a></li>
+              <li><a href="#">Shift</a></li>
+              <li><a href="#">Neural</a></li>
+            </ul>
+          </div>
+
+          <div class="sections">
+            <h5>About TNW</h5>
+            <ul class="nav-mobile-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Terms &amp; Conditions</a></li>
+            </ul>
+
+            <h5 class="tnw-sites-title">TNW Sites</h5>
+            <ul class="nav-mobile-menu">
+              <li><a href="#">Events</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">TNW 2020</a></li>
+              <li><a href="#">Programs</a></li>
+              <li><a href="#">Index</a></li>
+              <li><a href="#">Spaces</a></li>
+              <li><a href="#">Deals</a></li>
+              <li><a href="#">Answers</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="cover-stories">
+      <article class="cover-story">
+        <a href="#" class="cover-story-link">
+          <div class="cover-story-title-wrapper">
+            <div class="cover-story-category">Tech</div>
+            <h3 class="cover-story-heading">A beginner’s guide to the math that powers machine learning</h3>
+            <div class="cover-story-info">
+              <span>by Ben Dickson</span>
+              <span><time datetime="2020-10-02T10:00:05+00:00"><i class="far fa-clock"></i>2 hours ago</time></span>
+              <span><i class="fas fa-share-alt"></i>4</span>
+            </div>
+          </div>
+          <div class="cover-story-logo"></div>
+          <div class="color-story-date">Tuesday — October 6, 2020</div>
+        </a>
+      </article>
+      <article class="cover-story">
+        <a href="#" class="cover-story-link">
+          <div class="cover-story-title-wrapper">
+            <h3 class="cover-story-heading">TNW2020 is happening now, and you can still join online</h3>
+          </div>
+        </a>
+      </article>
+      <article class="cover-story">
+        <a href="#" class="cover-story-link">
+          <div class="cover-story-title-wrapper">
+            <div class="cover-story-category">Insights</div>
+            <h3 class="cover-story-heading">How to perfect your fintech story and close your next funding round</h3>
+            <div class="cover-story-info">
+              <span>by Nadja Poljo</span>
+              <span><time datetime="2020-10-02T10:00:05+00:00"><i class="far fa-clock"></i>2 hours ago</time></span>
+              <span><i class="fas fa-share-alt"></i>14</span>
+            </div>
+          </div>
+        </a>
+      </article>
+    </div>
+    <div class="wrapper">
+      <section class="latest-news">
+        <h2 class="title"><a href="#">Latest News</a></h2>
+        <div class="latest-news-articles">
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+          <article class="latest-news-article">
+            <a href="#" class="latest-news-image">
+            </a>
+            <div class="latest-news-text">
+              <h4>
+                <a href="#">
+                  There’s a six-figure career in software development in your future. This training can be your gateway
+                </a>
+              </h4>
+              <div class="times">
+                <a href="#">TNW Deals</a>
+                <time datetime="2008-02-14 20:00">7 minutes ago</time>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="deals">
+        <header class="deals-header">
+          <h2 class="title"><a href="#">Latest funding rounds on Index.co</a></h2>
+          <div class="deals-links">
+            <a href="#">See more</a>
+            <a href="#">Get updates by email</a>
+            <a href="#">Add info</a>
+          </div>
+        </header>
+        <div class="deals-container">
+          <div class="deal-box">
+            <h4 class="company-name">pynk.io</h4>
+            <img src="./assets/images/payrix.png" alt="pyrix">
+            <div class="fund-details">
+              <h4 class="deal-value">$ 13M</h4>
+              <h5>SERIES B</h5>
+            </div>
+            <div class="deal-info">
+              <span>
+                <i class="fas fa-tag"></i>
+                Medical
+              </span>
+              <span>
+                <i class="fas fa-briefcase"></i>
+                Translink Capital, +7
+              </span>
+            </div>
+            <div class="deal-byline">
+              <a href="#">Indianapolis-based Malomo raises $2.8 million to turn order tracking into
+                a branded customer experience <span class="story-title-source">on&nbsp;TechCrunch</span></a>
+            </div>
+          </div>
+          <div class="deal-box">
+            <h4 class="company-name">Tend</h4>
+            <img src="./assets/images/tend.jpeg" alt="tend">
+            <div class="fund-details">
+              <h4 class="deal-value">$ 13M</h4>
+              <h5>SERIES B</h5>
+            </div>
+            <div class="deal-info">
+              <span>
+                <i class="fas fa-tag"></i>
+                Medical
+              </span>
+              <span>
+                <i class="fas fa-briefcase"></i>
+                Translink Capital, +7
+              </span>
+            </div>
+            <div class="deal-byline">
+              <a href="#">Indianapolis-based Malomo raises $2.8 million to turn order tracking into
+                a branded customer experience <span class="story-title-source">on&nbsp;TechCrunch</span></a>
+            </div>
+          </div>
+          <div class="deal-box">
+            <h4 class="company-name">Olema</h4>
+            <img src="./assets/images/olema.jpeg" alt="olema">
+            <div class="fund-details">
+              <h4 class="deal-value">$ 13M</h4>
+              <h5>SERIES B</h5>
+            </div>
+            <div class="deal-info">
+              <span>
+                <i class="fas fa-tag"></i>
+                Medical
+              </span>
+              <span>
+                <i class="fas fa-briefcase"></i>
+                Translink Capital, +7
+              </span>
+            </div>
+            <div class="deal-byline">
+              <a href="#">Indianapolis-based Malomo raises $2.8 million to turn order tracking into
+                a branded customer experience <span class="story-title-source">on&nbsp;TechCrunch</span></a>
+            </div>
+          </div>
+          <div class="deal-box">
+            <h4 class="company-name">Eclypsium</h4>
+            <img src="./assets/images/eclypsium.jpeg" alt="eclypsium">
+            <div class="fund-details">
+              <h4 class="deal-value">$ 13M</h4>
+              <h5>SERIES B</h5>
+            </div>
+            <div class="deal-info">
+              <span>
+                <i class="fas fa-tag"></i>
+                Medical
+              </span>
+              <span>
+                <i class="fas fa-briefcase"></i>
+                Translink Capital, +7
+              </span>
+            </div>
+            <div class="deal-byline">
+              <a href="#">Indianapolis-based Malomo raises $2.8 million to turn order tracking into
+                a branded customer experience <span class="story-title-source">on&nbsp;TechCrunch</span></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <div class="tech">
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Hard Fork</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-13.jpg" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Satoshi Nakaboto: ‘Ethereum miners were 6x more profitable than Bitcoin miners in September’</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">Fujitsu apologizes after Tokyo Stock Exchange suffers worst 'crash' in history</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Apps</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-02.png" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Google Maps adds new AR tools to help you get around town</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Napier Lopez</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">Yep, Twitter is down right now (Update: it's back)</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Gear</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-04.png" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">The ARM-based Surface Pro X gets a faster processor and fancy colors</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">Fujitsu apologizes after Tokyo Stock Exchange suffers worst 'crash' in history</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Tech</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-06.png" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Women equal men in computing skill, but are less confident</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">A closer look at Volkswagen’s all-electric SUV, the ID.4</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Creative</a></h2>
+          <div class="tech-latest-container">
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-05.jpg" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Graphic design apps are now as fundamental as Excel — here's how non-designers get up to speed</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">This real-world multiplayer game lets you spend other people’s money — really</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Podium</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-06.png" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Graphic design apps are now as fundamental as Excel — here's how non-designers get up to speed</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Alexis Ong</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">This real-world multiplayer game lets you spend other people’s money — really</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Insights</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-07.png" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">The 3 keys to leading through a crisis: Preparation, data, and creativity</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">Beauty is in the app of the beholder</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Launch</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-11.jpg" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Lynk & Co.'s car sharing-owning scheme will never cost more than €500 a month</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">Lucid unveils the Air, its luxury EV with up to 517-miles of range costing as much as $169K</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech-latest">
+          <h2 class="title"><a href="#">Distract</a></h2>
+          <div class="tech-latest-container">
+
+            <div class="tech-header-wrap">
+              <a href="#" class="tech-image">
+                <img src="./assets/images/image-09.jpg" alt="">
+              </a>
+              <header class="tech-header">
+                <h5>Most Popular</h5>
+                <h3><a href="#">Call of Duty: Warzone Season 6 riddled with crashes and silly subway bugs</a></h3>
+                <div class="tech-header-byline">
+                  <a href="#">Satoshi Nakaboto</a>
+                  <time datetime="2020-10-02T08:41:04+00:00">3 days ago</time>
+                </div>
+              </header>
+            </div>
+            <article class="tech-latest-post">
+              <header class="tech-latest-post-header">
+                <h5>Latest</h5>
+                <h4><a href="#">PSA: Call of Duty's Season 6 patch is 57GB — better start downloading it now</a></h4>
+              </header>
+              <a href="#" class="tech-latest-post-image"></a>
+            </article>
+            <ul class="tech-headlines">
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+              <li><a href="#">Satoshi Nakaboto: ‘Jack Dorsey slams Coinbase CEO for overlooking its users' societal issues’</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <section class="latest-deals">
+        <header class="latest-deals-header">
+          <h2 class="title"><a href="#">Latest deals</a></h2>
+          <a href="#" class="all-deals">See all Deals</a>
+        </header>
+        <div class="latest-deals-container">
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image deal-image-1">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">The 2020 Adobe Graphic Design Certification School</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image deal-image-2">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">The Complete Agile Scrum Product Owner Masterclass Course</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">The Premium Cisco CCNA & CCNP Lifetime Certification Prep Bundle</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">Instagram Master Class</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">JumpStory™ Authentic Stock Photography: Lifetime Membership</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">The All-in-One Adobe Creative Cloud Suite Certification Course Bundle</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">The Google Cloud Certifications Practice Tests + Courses Bundle</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-deal">
+            <a href="#" class="latest-deal-image">
+              <div class="latest-deal-sale">
+                <span>97% off</span>
+              </div>
+            </a>
+            <div class="latest-deal-title">
+              <h4><a href="#">YouTube Masterclass</a></h4>
+              <div class="deal-price">
+                <span class="old-price">$639</span>
+                <span class="new-price">$29.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="main-footer">
+    <div class="footer-links">
+      <div class="footer-wrapper">
+        <ul class="footer-links-social">
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          <li><a href="#"><i class="fas fa-rss"></i></a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+        <ul class="footer-links-menu">
+          <li><a href="#">events</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">advertise</a></li>
+          <li><a href="#">jobs</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-legal">
+        <span><img class="f-logo" src="./assets/images/tnw.svg" alt="logo"> &copy; 2006–2020 The Next Web B.V.</span>
+        <span>Made with &#60;3 in Amsterdam.</span>
+        <span>Powered by <img class="stackpath-img" src="./assets/images/stackpath.svg" alt="stackpath"></span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    var button = document.getElementById('humburger')
+    var nav = document.getElementById('nav-mobile')
+
+    button.addEventListener('click', function () {
+      button.classList.toggle('is-active')
+      nav.classList.toggle('is-active')
+    });
+  </script>
 </body>
+
 </html>

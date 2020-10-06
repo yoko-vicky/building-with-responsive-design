@@ -2,21 +2,13 @@
   "name": "boilerplate-for-mv",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:yocosaka/boilerplate-for-mv.git",
-  "author": "yocosaka <sakayoco55@gmail.com>",
   "license": "MIT",
   "scripts": {
     "stylelint": "stylelint '**/*.{css,scss}'",
     "webhint": "hint ."
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run stylelint && npm run webhint"
-    }
-  },
   "devDependencies": {
     "hint": "^6.0.7",
-    "husky": "^4.3.0",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
