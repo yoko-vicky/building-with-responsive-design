@@ -24,7 +24,7 @@ More on responsiveness, it incorporated the use of media queries, which is a pow
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/yocosaka/building-with-responsive-design/next-web/index.html)
+[Live Demo Link](https://rawcdn.githack.com/yocosaka/building-with-responsive-design/80038fce72071091b92950667ba205aae1b1f3d6/index.html)
 
 
 ## Getting Started
