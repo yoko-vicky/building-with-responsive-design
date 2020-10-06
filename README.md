@@ -14,7 +14,7 @@ This project consists of replicating the The Next Web website putting emphasis o
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/yocosaka/building-with-responsive-design/master/index.html)
+[Live Demo Link](https://raw.githack.com/yocosaka/building-with-responsive-design/next-web/index.html)
 
 
 ## Getting Started
