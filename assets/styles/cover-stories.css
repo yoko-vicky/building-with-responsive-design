@@ -77,6 +77,10 @@
   margin-right: 4px;
 }
 
+.color-story-date {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .cover-stories {
     display: grid;
@@ -121,11 +125,35 @@
   }
 
   .cover-story:first-child .cover-story-link {
-    background: linear-gradient(159deg, rgba(255, 0, 63, 0.5) 0%, rgba(121, 9, 31, 0) 67%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(
+      159deg,
+      rgb(255, 38, 0) 0%,
+      rgb(255, 38, 06) 20%,
+      rgba(0, 0, 0, 0.8) 60%,
+      rgba(0, 0, 0, 1) 100%
+    );
     transition: all 1s;
   }
 
   .cover-story:first-child .cover-story-link:hover {
     background: linear-gradient(159deg, rgba(255, 0, 63, 0.1) 0%, rgba(255, 255, 255, 0.2) 67%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  .cover-story-logo {
+    width: 300px;
+    height: 120px;
+    background: url(../images/tnw.svg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+  }
+
+  .color-story-date {
+    display: block;
+    position: absolute;
+    right: 19px;
+    top: 14px;
+    font-size: 14px;
   }
 }

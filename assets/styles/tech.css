@@ -75,6 +75,7 @@
 
 .tech-latest-post {
   display: flex;
+  justify-content: space-between;
   background-color: var(--color-light-pink);
   margin: 2px 0;
 }
