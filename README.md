@@ -1,15 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Building With Responsive Design
+This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](./assets/images/screencapture.png)
 
 
 ## About The Project
 
-<!-- This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered. -->
-
 This project clones The [Next Web](https://thenextweb.com/), a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.
+
+The project has involved the use of Grid and FlexBox for positioning of HTML elements to satisfy responsivenes of the page on different
+screen sizes.
+
+More on responsiveness, it incorporated the use of media queries, which is a powerful tool that helped in inclusion of block CSS properties only if a certain condition is true, i.e. a particular media screen size which are refered to as breakpoints.
 
 
 ## Built With
