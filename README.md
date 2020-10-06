@@ -1,15 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# PROJECT NAME : Building With Responsive Design
+# Building With Responsive Design
 
 ![screenshot](./assets/images/screencapture.png)
 
-This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
+
+## About The Project
+
+<!-- This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered. -->
+
+This project clones The [Next Web](https://thenextweb.com/), a tech-focused magazine which uses media queries to gracefully degrade their site as the window size is reduced.
+
 
 ## Built With
 
 - HTML, CSS
-- Fontawwsome
+- Fontawesome
 - Javascript
 
 ## Live Demo
@@ -20,9 +26,25 @@ This project consists of replicating the The Next Web website putting emphasis o
 ## Getting Started
 
 * Clone this repo https://github.com/yocosaka/building-with-responsive-design
-* Navigate to project directory.
-* If you have liveserver in you vs-code, just run it.
-* Ortherwise just open index page with your browser.
+* To get a local copy up and running follow these simple steps.
+
+Install dependencies:
+
+```
+npm install
+```
+
+or 
+
+```
+yarn install
+```
+
+
+### Prerequisites
+
+- Npm install or yarn install is required to make new commits.
+
 
 ## Authors
 
@@ -48,3 +70,13 @@ Feel free to check the [issues page](https://github.com/Lameck1/Design-Teardown/
 
 Give a ⭐️ if you like this project!
 
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+
+## Acknowledgements
+
+* [Font Awesome](https://fontawesome.com)
+* [Google Fonts](https://fonts.google.com/)
