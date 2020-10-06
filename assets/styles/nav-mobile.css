@@ -38,6 +38,15 @@
   justify-self: center;
 }
 
+.nav-mobile-menu a {
+  display: block;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 3px 0;
+}
+
 .nav-mobile-social li a {
   color: white;
   font-size: 18px;
@@ -64,15 +73,6 @@
 
 .nav-mobile-menu li {
   margin-top: 7px;
-}
-
-.nav-mobile-menu a {
-  display: block;
-  color: hsla(0, 0%, 100%, 0.6);
-  font-size: 14px;
-  text-decoration: none;
-  margin-top: 0;
-  padding: 3px 0;
 }
 
 @media screen and (min-width: 768px) {

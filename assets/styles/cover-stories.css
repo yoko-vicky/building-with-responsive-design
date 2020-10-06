@@ -125,13 +125,14 @@
   }
 
   .cover-story:first-child .cover-story-link {
-    background: linear-gradient(
-      159deg,
-      rgb(255, 38, 0) 0%,
-      rgb(255, 38, 06) 20%,
-      rgba(0, 0, 0, 0.8) 60%,
-      rgba(0, 0, 0, 1) 100%
-    );
+    background:
+      linear-gradient(
+        159deg,
+        rgb(255, 38, 0) 0%,
+        rgb(255, 38, 06) 20%,
+        rgba(0, 0, 0, 0.8) 60%,
+        rgba(0, 0, 0, 1) 100%
+      );
     transition: all 1s;
   }
 

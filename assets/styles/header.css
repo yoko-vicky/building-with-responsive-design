@@ -81,6 +81,10 @@
   transform-origin: left center;
 }
 
+#humburger.is-active span {
+  background: white;
+}
+
 #humburger.is-active span:nth-child(1) {
   transform: rotate(45deg);
   top: 17px;
@@ -96,10 +100,6 @@
   transform: rotate(-45deg);
   top: 31px;
   left: 8px;
-}
-
-#humburger.is-active span {
-  background: white;
 }
 
 .top-nav {
@@ -167,6 +167,10 @@
     margin-left: 12px;
   }
 
+  .nav-right li {
+    margin-left: 20px;
+  }
+
   .nav-left li:first-child {
     margin-left: 20px;
   }
@@ -190,10 +194,6 @@
     display: flex;
     align-items: center;
     padding-right: 20px;
-  }
-
-  .nav-right li {
-    margin-left: 20px;
   }
 
   .bottom-nav {

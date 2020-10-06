@@ -52,9 +52,10 @@
   margin: 0 auto 6px;
 }
 
-.tech-header h3 a {
-  font-size: 20px;
-  margin: 0;
+.tech-header-byline,
+.tech-header-byline a {
+  color: var(--color-light-grey);
+  font-size: 12px;
 }
 
 .tech-header a {
@@ -62,10 +63,9 @@
   text-decoration: none;
 }
 
-.tech-header-byline,
-.tech-header-byline a {
-  color: var(--color-light-grey);
-  font-size: 12px;
+.tech-header h3 a {
+  font-size: 20px;
+  margin: 0;
 }
 
 .tech-header-byline a::after {
@@ -76,13 +76,8 @@
 .tech-latest-post {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-light-pink);
-  margin: 2px 0;
-}
-
-.tech-latest-post {
-  display: flex;
   background-color: var(--color-light-primary);
+  margin: 2px 0;
 }
 
 .tech-latest-post-header {
