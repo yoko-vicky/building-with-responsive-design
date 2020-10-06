@@ -55,13 +55,13 @@
         </ul>
 
         <div class="header-icons">
-          <a href="#"><i class="fas fa-search fa-flip-horizontal"></i></a>
-          <a href="#"><i class="fas fa-bars"></i></a>
+          <a href="#" class="header-icons-wrap"><i class="fas fa-search fa-flip-horizontal"></i></a>
+          <span id="humburger" class="header-icons-wrap"><i class="fas fa-bars"></i></span>
         </div>
       </div>
     </div>
 
-    <nav class="nav-mobile">
+    <nav class="nav-mobile" id="nav-mobile">
       <div class="nav-mobile-content">
         <ul class="nav-mobile-social">
           <li><a href="#"><i class="fas fa-envelope"></i></a></li>
@@ -100,7 +100,7 @@
               <li><a href="#">Terms &amp; Conditions</a></li>
             </ul>
 
-            <h5>TNW SItes</h5>
+            <h5 class="tnw-sites-title">TNW Sites</h5>
             <ul class="nav-mobile-menu">
               <li><a href="#">Events</a></li>
               <li><a href="#">News</a></li>
@@ -794,6 +794,15 @@
       </div>
     </div>
   </footer>
+  <script>
+    var button = document.getElementById('humburger')
+    var nav = document.getElementById('nav-mobile')
+
+    button.addEventListener('click', function () {
+      button.classList.toggle('is-active')
+      nav.classList.toggle('is-active')
+    });
+  </script>
 </body>
 
 </html>

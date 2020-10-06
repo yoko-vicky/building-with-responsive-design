@@ -1,17 +1,21 @@
 .nav-mobile {
   transition: 0.4s;
-  /* -webkit-transform: translateX(100%);
-  transform: translateX(100%); */
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   width: 100%;
   height: 100vh;
   left: 0;
-  padding: 48px 20px;
   position: fixed;
   right: 0;
   top: 0;
   will-change: transform;
   z-index: 997;
+}
+
+.nav-mobile.is-active {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .nav-mobile-content {
@@ -20,20 +24,30 @@
 }
 
 .nav-mobile-social {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-content: center;
+  width: 100%;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.15);
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.15);
+  padding: 20px 0;
+  margin-top: 48px;
+}
+
+.nav-mobile-social li {
+  justify-self: center;
 }
 
 .nav-mobile-social li a {
   color: white;
-  font-size: 20px;
-  margin-right: 2em;
-  padding: 10px;
+  font-size: 18px;
+  margin: 6px;
 }
 
 .nav-mobile-links {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
 }
 
 .sections h5 {
@@ -44,10 +58,25 @@
   margin: 0;
 }
 
+.sections h5.tnw-sites-title {
+  margin-top: 27px;
+}
+
+.nav-mobile-menu li {
+  margin-top: 7px;
+}
+
 .nav-mobile-menu a {
+  display: block;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 14px;
   text-decoration: none;
-  line-height: 2;
   margin-top: 0;
+  padding: 3px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
 }
