@@ -19,7 +19,6 @@ More on responsiveness, it incorporated the use of media queries, which is a pow
 ## Built With
 
 - HTML, CSS
-- Fontawesome
 - Javascript
 
 ## Live Demo
